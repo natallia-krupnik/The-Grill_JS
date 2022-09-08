@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap" rel="stylesheet">	
+	<link rel="stylesheet" href="style.css">
+	<title>THE GRILL</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="container_header">
+			<h1 class="header">THE GRILL <img class="header_letter" src="gWhite.png" alt=""></h1> 
+			<h4 class="header_menu type_menu"></h4>
+		</header>
+		<div class="main">
+			<div class="main_one main_photo">
+				<h4 class="main_title">Filet Mignon</h4>
+				<p class="main_price">60 Euro</p>
+			</div>
+
+			<div class="main_two main_photo">
+				<h4 class="main_title">Ham steak</h4>
+				<p class="main_price">35 Euro</p>
+			</div>
+
+			<div class="main_three main_photo">
+				<h4 class="main_title">Chops & Chicken</h4>
+				<p class="main_price">35 Euro</p>
+			</div>
+
+			<div class="main_four main_photo">
+				<h4 class="main_title">Chicken grilled</h4>
+				<p class="main_price">35 Euro</p>
+			</div>
+
+			<div class="main_five main_photo">
+				<h4 class="main_title">American Cheeseburger</h4>
+				<p class="main_price">35 Euro</p>
+			</div>
+
+			<div class="main_six main_photo">
+				<h4 class="main_title">Lamb Chops</h4>
+				<p class="main_price">50 Euro</p>
+			</div>
+		</div>
+		<div class="form_header">
+			<h4>Send us a menu</h4>
+		</div>
+
+		<!-- i can use the site "formspree.io" to send mails -->
+		<!-- <input type="hidden" name="_language" value="en"> -->
+
+		<form  action="#">
+			<div class="container_form">
+				<div class="form_input">
+					<label class="form_label" for="input_01">Your email:</label>
+					<input id="input_01" type="email" placeholder="Email..." required="">
+				</div>
+				<div class="form_input">
+					<label class="form_label" for="coment_01">Your message:</label>
+					<textarea id="coment_01" name="comet" placeholder="Type your message..." required=""></textarea>
+				</div>
+			</div>
+			<div class="container_btn">
+				<button class="btn" type="button">Send</button>
+			</div>
+		</form>
+
+		<footer  class="container_footer">
+			<div class="footer">All material is used for educational purposes </div>
+		</footer>
+	
+	</div> <!-- close wrapper -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.0/gsap.min.js"></script>
+<script src="script.js"></script>	
+</body>
+</html>
